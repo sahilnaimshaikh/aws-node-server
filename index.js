@@ -17,6 +17,6 @@ app.get('/',(req, res)=>{
     res.send('hello this is my node server, i am running this node server on aws ec2')
 })
 
-app.listen(80,()=>{
+app.listen(8080,()=>{
     console.log('connected to the server')
 })
